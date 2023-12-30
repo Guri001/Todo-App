@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,700&family=Roboto:ital,wght@0,100;0,400;1,100&display=swap");
+.app-container {
+  font-family: Roboto;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: red;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 100px;
+}
+h1 {
+  color: #fff;
+  text-align: center;
+}
+
+.todo-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.todo-form input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 10px 0px 0px 10px;
+  outline: none;
+  border: none;
+}
+
+.todo-form button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.todo-search input {
+  width: 30%;
+  padding: 10px;
+  font-size: 16px;
+  margin-left: 400px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-item {
+  background-color: #f8f8f8;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.update-button,
+.delete-button {
+  padding: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.update-button {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: #fff;
+}
+.myName {
+  margin-left: 430px;
+  color: white;
+}
